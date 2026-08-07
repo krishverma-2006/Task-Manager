@@ -1,24 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
     <div class="container">
-        <aside class="side-bar">
+      <aside class="side-bar">
+        <div class="logo">
+          <h2>TM <span>Task Manager</span></h2>
+        </div>
+        <nav class="sidebar-nav">
+          <ul>
+            <li>
+                <a href="#">
+                    <span>
+                        <i class="fa-solid fa-house"></i>
+                        Dashboard
+                    </span>
+                </a>
+            </li>
 
-        </aside>
-        <main class="main-content">
-            <header></header>
-            <section class="stat"></section>
-            <section class="task-input"></section>
-            <section class="control"></section>
-            <section class="task-list"></section>
-        </main>
+            <li class="task-menu">
+              <div class="menu-title">
+                <span>
+                  <i class="fa-solid fa-list-check"></i>
+                  My Tasks
+                </span>
+
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+
+              <ul class="submenu">
+                <li>
+                  <a href="#">Active</a>
+                </li>
+
+                <li>
+                  <a href="#">Completed</a>
+                </li>
+              </ul>
+            </li>
+
+                <li>
+                    <a href="#">
+                        <span>
+                            <i class="fa-solid fa-gear"></i>
+                            Settings
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            </nav>
+        <div class="categories">
+
+        <h3>Category</h3>
+
+    <ul>
+
+        <li>Personal</li>
+
+        <li>Work</li>
+
+        <li>Project Delta</li>
+
+    </ul>
+
+      </aside>
+
+      <main class="main-content">
+        <header></header>
+        <section class="stat"></section>
+        <section class="task-input"></section>
+        <section class="control"></section>
+        <section class="task-list"></section>
+      </main>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

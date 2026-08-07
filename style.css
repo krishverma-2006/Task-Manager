@@ -23,3 +23,90 @@ body{
     flex:1;
     padding:30px;
 }
+
+.sidebar{
+    width: 260px;
+    background:#fff;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ddd;
+}
+.logo{
+    margin-bottom: 40px;
+}
+.logo h2{
+    font-size:28px;
+}
+.logo span{
+    font-size:22px;
+    margin-left:8px;
+}
+.sidebar-nav ul{
+    list-style:none;
+}
+
+.sidebar-nav li{
+    margin-bottom:15px;
+}
+.sidebar-nav a,
+.menu-title{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:12px 15px;
+
+    text-decoration:none;
+
+    color:#222;
+
+    border-radius:10px;
+
+    cursor:pointer;
+}
+
+.sidebar-nav span{
+    display:flex;
+    align-items: center;
+    gap:12px;
+}
+
+.submenu{
+    margin-top:8px;
+    margin-left:25px;
+}
+
+.submenu li{
+    margin:8px 0;
+}
+.categories{
+
+    margin-top:auto;
+
+}
+
+.categories h3{
+
+    margin-bottom:15px;
+
+    color:gray;
+
+    font-size:16px;
+
+}
+
+.categories ul{
+
+    list-style:none;
+
+}
+
+.categories li{
+
+    margin:15px 0;
+
+    cursor:pointer;
+
+}
